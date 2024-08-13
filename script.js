@@ -1,5 +1,6 @@
 const API_KEY = "18a87f17ef6645f69c5f4c5202f8fadb";
 const url = "https://newsapi.org/v2/everything?q=";
+const port = process.env.PORT || 4000
 window.addEventListener("load", () => fetchNews("farmers"));
 function reload() {
     window.location.reload();
